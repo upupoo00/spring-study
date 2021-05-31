@@ -12,20 +12,4 @@ public class LoginController {
     @Autowired
     private LoginService loginService;
 
-
-    @Bean
-    public User user1(){
-        User user = new User();
-        user.setUsername("upupoo0");
-        user.setPassword("000524");
-        return user;
-    }
-
-    @Bean
-    public User user2(){
-        User user = new User();
-        user.setUsername("upupoo00");
-        user.setPassword("000524");
-        return user;
-    }
 }
