@@ -3,7 +3,7 @@ package org.example.util;
 import org.example.model.User;
 import org.springframework.beans.factory.FactoryBean;
 import org.springframework.stereotype.Component;
-
+//组件层
 @Component
 public class UserFactory implements FactoryBean<User> {
     @Override

@@ -5,7 +5,7 @@ import org.example.service.LoginService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.context.annotation.Bean;
 import org.springframework.stereotype.Controller;
-
+//前端业务交互层
 @Controller
 public class LoginController {
 
